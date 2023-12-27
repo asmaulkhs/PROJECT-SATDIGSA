@@ -1,0 +1,31 @@
+body{
+    background-color: #67A3D9;
+    overflow-x: hidden;
+}
+
+.bi {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+  }
+
+.row{
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-container{
+    height: 85vh;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: start;
+    border-radius: 17px;
+    overflow: auto;
+}
+
+a {
+    cursor: pointer;
+}

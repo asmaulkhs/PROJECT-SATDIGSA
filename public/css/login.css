@@ -1,0 +1,76 @@
+body {
+    background-image: url('../images/bg2.jpg');
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.form-signin{
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 100px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.icon{
+    fill: #fff;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    width: 100vh;
+    margin-bottom: 20px;
+    
+}
+
+.form-control{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff; 
+    border: none;
+    width: 350px;
+    height: 50px;
+    border-radius: 17px;
+    margin-right: 1px;
+}
+.form-control::placeholder {
+    color: #fff;
+}
+
+.form-control:focus {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff; 
+}
+
+.input-group{
+    width: 350px;
+}
+
+.input-group-text{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff; 
+    border: none;
+    border-radius: 17px;
+    margin-right: 1px;
+}
+
+.input-group-text img{
+    filter: invert(100%);
+}
+
+.btn{
+    width: 250px;
+    border-radius: 15px;
+}
